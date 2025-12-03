@@ -1,0 +1,17 @@
+# Dynamic and Static Libraries
+.dll
+.lib
+.ocx
+.sys
+.drv
+.cpl
+.ax
+.bpl
+
+# Type and Object Libraries
+.tlb
+.olb
+.mui
+.res
+.obj
+.pdb

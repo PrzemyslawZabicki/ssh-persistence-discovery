@@ -1,0 +1,34 @@
+# Key and Public Key Formats
+.key
+.pub
+.pem
+.ppk
+
+# Encrypted Key Formats
+.gpg
+.asc
+.kbx
+
+# Certificate and PKI Formats
+.crt
+.cer
+.der
+.p12
+.pfx
+.p7b
+.p7c
+.jks
+.jceks
+.pkcs
+
+# Hash and Signature Files
+.sha
+.sha256
+.sha512
+.blake2
+.blake3
+
+# Password Hashing / KDF Artifacts
+.argon2
+.scrypt
+.bcrypt

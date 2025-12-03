@@ -1,0 +1,93 @@
+body {
+    background-color: #0a0a0a;
+    color: #ff2a2a;
+    font-family: 'Consolas', Consolas, monospace;
+    font-size: 16px;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: #ff1a1a;
+    text-shadow: 0 0 10px #ff0000;
+}
+
+a {
+    color: #ff4d4d;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px #ff0000;
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+	border: 2px solid #ff0000;
+    background-color: #1a0000;
+    box-shadow: 0 0 10px #ff0000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+th,td {
+    border-bottom: 2px solid #ff0000;
+    padding: 10px;
+    text-align: left;
+    /*color: #ff6666;*/
+	color: #ff6f61;
+	text-shadow: 0 0 1px #ff6f61, 0 0 4px #ff6f61;
+}
+
+th {
+    background-color: #330000;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+}
+
+td {
+    font-size: 14px;
+    border: none;	border-collapse:collapse;
+}
+
+tr:hover {
+    background-color: #330000;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+    outline: 2px solid #ff0000;
+    outline-offset: -2px;
+}
+
+tr:hover td,
+tr:hover th {
+    color: #ffffff;	 
+}
+
+tr:hover td a {
+    color: #ffffff;
+}
+
+button {
+    background-color: #ff0000;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 5px #ff0000;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+}

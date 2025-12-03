@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SSH Files &amp; Artifacts Scan Report</title>
+    <link rel="stylesheet" type="text/css" href="./config/report-styles.css">
+</head>
+<body>
+    <h1>SSH Files &amp; Artifacts Scan Report {{timestamp}}</h1>
+    <table>
+        <tr>
+            <th>Parent</th>
+            <th>File</th>
+            <th>Name</th>
+            <th>Size [B]</th>
+            <th>Created [UTC]</th>
+            <th>Modified [UTC]</th>
+            <th>SHA256</th>
+            <th>Owner</th>
+        </tr>
+        {{rows}}
+    </table>
+</body>
+</html>

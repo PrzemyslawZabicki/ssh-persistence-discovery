@@ -1,0 +1,16 @@
+# Windows Batch and Script Formats
+.bat
+.cmd
+.ps1
+.vbs
+.js
+.wsf
+
+# Executables and Installers
+.exe
+.msi
+.com
+
+# Registry and Shortcuts
+.reg
+.lnk
